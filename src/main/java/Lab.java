@@ -1,4 +1,3 @@
-
 public class Lab {
     /**
      * The Math class contains utility methods that can be used for calculations like exponents, rounding, random
@@ -19,7 +18,11 @@ public class Lab {
      *
      * @return return a^b using the pow() method of the Math class.
      */
-    public double mathPow(double a, double b){
-        return 0;
+    public double mathPow(double a, double b){ 
+        double test =1;
+        for (int i = 0; i < b; i++) {
+            test *= a;
+        }
+        return test;                   
     }
 }
